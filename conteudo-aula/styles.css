@@ -1,12 +1,19 @@
 html {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(26, 26, 26);
+    color: rgb(158, 158, 158);
 }
 header {
     text-align: center;
 }
+header a {
+    color: bisque;
+}
 
 h1 {
     text-align: center;
+    color: silver;
 }
 
 main {
@@ -33,5 +40,15 @@ footer {
     right: 0px;
     margin-bottom: 0px;
     padding: 10px;
+    text-align: center;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+table {
+    color: rgb(200, 200, 200);
     text-align: center;
 }
