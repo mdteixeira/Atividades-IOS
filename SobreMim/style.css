@@ -39,6 +39,10 @@ li a:hover{
     text-decoration: none;
     color: rgb(0, 191, 255);
 }
+li a strong:hover{
+    text-decoration: none;
+    color: rgb(0, 191, 255);
+}
 main h1 {
     text-align: center;
     color: coral;
