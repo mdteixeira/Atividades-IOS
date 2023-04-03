@@ -117,3 +117,7 @@ main img {
     border-radius: 50px;
     padding: 10px;
 }
+
+li strong:hover {
+    color: rgb(0, 191, 255);
+}
