@@ -104,6 +104,10 @@ footer {
     text-align: center;
 }
 
+footer a:hover {
+    filter: contrast(50%);
+}
+
 artistas {
     float: left;
     width: 50%;
