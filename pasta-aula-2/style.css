@@ -41,7 +41,7 @@ html {
 }
 
 header {
-  backdrop-filter: brightness(50%) blur(10px);
+  backdrop-filter: brightness(75%) blur(15px);
   position: fixed;
   top: 0;
   right: 0;
@@ -89,7 +89,6 @@ footer {
   position: fixed;
   bottom: 0;
   right: 0;
-  left: 0;
   backdrop-filter: brightness(50%);
   font-size: 120%;
   padding: 1em;
@@ -97,7 +96,7 @@ footer {
 }
 
 a img {
-  width: 3.5%;
+  width: 30px;
   vertical-align: middle;
 }
 footer a:hover {
@@ -131,9 +130,6 @@ ul {
   width: 0px;
 }
 
-#corpo  {
+#corpo {
   margin: 5%;
-}
-
-main {
 }
