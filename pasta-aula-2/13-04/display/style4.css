@@ -1,0 +1,68 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  size: 100vh;
+  background-color: #202020;
+  color: white;
+}
+
+div {
+  margin: 30px;
+}
+
+#cardsBox {
+    width: 100%;
+    text-align: center;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin: 5px;
+  display: inline-block;
+}
+#dv1 {
+  background: violet;
+}
+#dv2 {
+  background-color: greenyellow;
+}
+#dv3 {
+  background: rgb(255, 183, 0);
+}
+#dv4 {
+  background: lightcoral;
+}
+#dv5 {
+  background: lightskyblue;
+}
+
+.block {
+  display: inline-block;
+  text-align: center;
+  width: auto;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 2px white;
+}
+
+hr {
+  margin: 5% 10px;
+}
+
+p {
+  color: red;
+}
+p.ex-1 {
+  display: none;
+}
+p.ex-2 {
+  display: inline;
+}
+p.ex-3 {
+  display: block;
+}
+p.ex-4 {
+  display: inline-block;
+}
