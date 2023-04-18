@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+html {
+    font-family: system-ui;
+}
+
+#p1::after {
+    content: ' - Leia mais';
+}
+
+#p2::before {
+    content: 'Leia sobre: ';
+}
+
+#p3::selection {
+    background-color: blanchedalmond;
+    color: tomato;
+}

@@ -1,0 +1,29 @@
+html {
+    font-family: system-ui;
+    text-align: center;
+}
+
+#nome:focus {
+    background-color: pink;
+}
+
+/* Exercício 2 -------------------------------- */
+
+/* Mudar a cor após visitar link */
+
+/* Cor inicial */
+#id1 {
+    color: red;
+}
+
+/* Muda a cor após visitar link */
+#id1:visited {
+    color: greenyellow;
+}
+
+/* Muda a cor quando clicado */
+#id1:active {
+    color: gray;
+}
+
+/* -------------------------------------------- */
