@@ -1,0 +1,68 @@
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+html {
+    text-align: center;
+    color: white;
+    font-family: system-ui, -apple-system;
+}
+
+.container {
+    padding: 10px;
+    height: 90vh;
+    border: solid 1px black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.item {
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+    box-sizing: content-box;
+    box-shadow: 0 0 10px rgb(112, 112, 112);
+    transition: 0.5s;
+}
+
+/* --------------------------------------------- */
+/*            Apenas as cores das divs           */
+
+#div1 {
+    background-color: blueviolet;
+}
+
+#div2 {
+    background-color: deepskyblue;
+}
+
+#div3 {
+    background-color: goldenrod;
+}
+
+#div4 {
+    background-color: tomato;
+}
+
+#div5 {
+    background-color: rgb(7, 153, 7);
+}
+
+#div6 {
+    background-color: brown;
+}
+
+#div7 {
+    background-color: springgreen
+}
+
+#div8 {
+    background-color: violet;
+}
+
+#div9 {
+    background-color: teal;
+}
