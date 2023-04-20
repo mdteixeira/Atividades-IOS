@@ -1,76 +1,44 @@
-/* * {
-    padding: 0;
-    margin: 0;
-} */
+.container {
+    width: 97vw;
+    height: 97vh;
+    border: solid 2px black;
+    
+    display: grid;
+    grid-template-areas:
 
-html {
-    text-align: center;
-    color: white;
-    font-family: system-ui, -apple-system;
+        "header header header header"
+        "main main main img"
+        "img2 section section section"
+        "footer footer footer footer"
+    ;
 }
 
-
-
-/* ------------------------------- */
-/*    Apenas as cores das divs     */
-
-#div1 {
-    background-color: rgb(138, 212, 64);
-    /* flex-grow: 1; */
-    flex-basis: auto;
+.header {
+    grid-area: header;
+    background: tomato;
 }
 
-#div2 {
-    background-color: deepskyblue;
-    /* flex-grow: 1; */
-    flex-basis: auto;
+.img {
+    grid-area: img;
+    background: rgb(41, 205, 41);
 }
 
-#div3 {
-    background-color: goldenrod;
-    /* flex-grow: 1; */
-    flex-basis: auto;
-
+.img2 {
+    grid-area: img2;
+    background: #327800;
 }
 
-#div4 {
-    background-color: tomato;
-    /* flex-grow: 1; */
-    flex-basis: auto;
+.section {
+    grid-area: section;
+    background: rgb(147, 51, 211);
 }
 
-
-
-
-
-/* ---------------------- */
-
-#div5 {
-    background-color: rgb(7, 153, 7);
-    /* flex-grow: 1; */
-    flex-basis: auto;
+.main {
+    grid-area: main;
+    background: rgb(51, 166, 211);
 }
 
-#div6 {
-    background-color: violet;
-    /* flex-grow: 1; */
-    flex-basis: auto;
-}
-
-#div7 {
-    background-color: paleturquoise;
-    /* flex-grow: 1; */
-    flex-basis: auto;
-}
-
-#div8 {
-    background-color: chocolate;
-    /* flex-grow: 1; */
-    flex-basis: auto;
-}
-
-#div9 {
-    background-color: darkcyan;
-    /* flex-grow: 1; */
-    flex-basis: auto;
+.footer {
+    grid-area: footer;
+    background: gold;
 }
