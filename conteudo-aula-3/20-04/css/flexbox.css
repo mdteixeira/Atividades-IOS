@@ -1,0 +1,85 @@
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+html {
+    text-align: center;
+    color: white;
+    font-family: system-ui, -apple-system;
+}
+
+.container {
+    padding: 10px;
+    height: 90vh;
+    border: solid 1px black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item {
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+    box-sizing: content-box;
+}
+
+/* ------------------------------- */
+/*    Apenas as cores das divs     */
+
+#div1 {
+    background-color: blueviolet;
+    /* flex-grow: 1; */
+    flex-basis: auto;
+}
+
+#div2 {
+    background-color: deepskyblue;
+    /* flex-grow: 1; */
+    flex-basis: auto;
+}
+
+#div3 {
+    background-color: goldenrod;
+    /* flex-grow: 1; */
+    flex-basis: auto;
+
+}
+
+#div4 {
+    background-color: tomato;
+    /* flex-grow: 1; */
+    flex-basis: auto;
+
+}
+
+#div5 {
+    background-color: rgb(7, 153, 7);
+    /* flex-grow: 1; */
+    flex-basis: auto;
+}
+
+#div6 {
+    background-color: thistle;
+    /* flex-grow: 1; */
+    flex-basis: auto;
+}
+
+#div7 {
+    background-color: cadetblue;
+    /* flex-grow: 1; */
+    flex-basis: auto;
+}
+
+#div8 {
+    background-color: chocolate;
+    /* flex-grow: 1; */
+    flex-basis: auto;
+}
+
+#div9 {
+    background-color: darkcyan;
+    /* flex-grow: 1; */
+    flex-basis: auto;
+}
