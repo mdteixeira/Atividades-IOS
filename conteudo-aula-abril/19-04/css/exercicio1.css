@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#div1 {
+    text-align: center;
+    background-color: gray;
+}
+
+#img1 {
+    border-radius: 15px;
+    border: solid black 1px;
+}
+
+.mov:hover {
+    animation: aula 1s;
+}
+
+@keyframes aula {
+    0% {
+        transform: translateX(0px);
+    }
+
+    40% {
+        transform: translateX(20px);
+    }
+
+    60% {
+        transform: translateX(-20px);
+    }
+
+    100%{
+        transform: translateX(0px);
+    }
+
+}

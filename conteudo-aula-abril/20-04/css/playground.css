@@ -1,0 +1,26 @@
+
+html {
+    background: rgb(230,230,230);
+    padding: 30px;
+    font-family: arial;
+}
+
+label {
+    font-size: 75%;
+}
+
+#t1 {
+    margin: 50px;
+    border: none;
+    box-shadow: 0 0 0 1px rgb(210, 210, 210);
+    border-radius: 8px;
+    padding: 5px 12px;
+}
+#t2 {
+    margin: 50px;
+    border: none;
+    box-shadow: 0 1px 1.5px 1px rgb(210, 210, 210);
+    border-radius: 8px;
+    padding: 5px 12px;
+}
+

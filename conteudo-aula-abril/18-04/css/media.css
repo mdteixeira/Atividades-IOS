@@ -1,0 +1,57 @@
+html {
+    font-family: system-ui;
+    background-color: #303030;
+    color: rgb(200, 200, 200);
+}
+
+header {
+    color: tomato;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    text-indent: 1.5cm;
+    text-align: justify;
+    padding: 0 20px;
+}
+
+#mHr {
+    width: 50%;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: rgb(30, 30, 30);
+        padding: 5px 0px;
+        color: greenyellow;
+        margin: 0;
+        box-shadow: 0 0 7px rgb(0, 0, 0);
+        height: 45px;
+        left: 0;
+        width: 100vw;
+    }
+
+    p {
+        margin: 0px 10px;
+    }
+
+    h2 {
+        padding: 10px 0px;
+    }
+
+    #mHr {
+        visibility: hidden;
+    }
+
+}
