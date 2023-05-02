@@ -123,6 +123,6 @@ main img {
     padding: 10px;
 }
 
-li strong:hover {
+li a strong:hover {
     color: rgb(0, 191, 255);
 }
