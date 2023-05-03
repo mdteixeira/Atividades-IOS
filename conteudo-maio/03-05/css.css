@@ -1,0 +1,14 @@
+html {
+    font-family: 'Segoe UI';
+    padding: 50px;
+    text-align: justify;
+}
+
+.mainTitle {
+    text-align: center;
+}
+
+p {
+    color: #656565;
+    text-indent: 1.5cm;
+}
