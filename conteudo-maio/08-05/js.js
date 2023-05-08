@@ -1,33 +1,29 @@
-console.log("\nExercício de Split\n");
+console.log('\nExercício de Split\n');
 
+var str = 'Meu nome é Matheus';
 
-var str = "Meu nome é Matheus"
+var palavras = str.split(' ');
 
-var palavras = str.split(' ')
-
-var nome = palavras[3]
+var nome = palavras[3];
 
 console.log(nome);
 
-
-console.log("\n\nExercício de Replace\n");
+console.log('\n\nExercício de Replace\n');
 // Replace
 
 // Altera um valor em uma String
 
-
-var frase = "Seja bem-vindo, usuário!"
-
-console.log(frase);
-
-nome = 'Enzo'
-
-frase = frase.replace('usuário', nome)
+var frase = 'Seja bem-vindo, usuário!';
 
 console.log(frase);
 
+nome = 'Enzo';
 
-console.log("\n\nExercício de Search\n");
+frase = frase.replace('usuário', nome);
+
+console.log(frase);
+
+console.log('\n\nExercício de Search\n');
 
 // Search
 
@@ -36,32 +32,31 @@ console.log("\n\nExercício de Search\n");
 
 /**
  * Verifica se a frase já tem nome, verificando se o termo inicial "usuário" ainda está presente.
- * 
+ *
  * @returns True se tiver nome
  * @returns False se ainda tiver o termo "usuário" na frase
-*/
-var temNome = frase.search('usuário') == -1
+ */
+var temNome = frase.search('usuário') == -1;
 
 console.log(temNome);
 
-
 // Tomada de decisões com If e Else
 
-
-console.log("\n\nExercício 1 de If-Else\n");
+console.log('\n\nExercício 1 de If-Else\n');
 // Exercício 1
 
-var nota_1 = 5
-var nota_2 = 6
+var nota_1 = 5;
+var nota_2 = 6;
 
-var media = (nota_1 + nota_2) / 2
+var media = (nota_1 + nota_2) / 2;
 let aprovado;
 
-
 if (media >= 6) {
-    aprovado = true
+    aprovado = true;
 } else {
-    aprovado = false
+    aprovado = false;
 }
 
 console.log(aprovado);
+
+console.log('\nExercício 2 de If-Else\n');
