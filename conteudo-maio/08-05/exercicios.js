@@ -17,7 +17,6 @@ var booleano = true;
 console.log(booleano);
 
 // exercício 1.4
-pi = Float64Array
 pi = 3.1415
 console.log(`a varíavel tem o tipo ${typeof(pi)} e valor ${pi}`);
 
@@ -36,14 +35,13 @@ alert(`O resultado é ${soma}`)
 
 // exercício 3
 var nome = "Matheus"
-var nome_sobrenome = nome.insert("de Oliveira")
-alert(nome_sobrenome);
+var nome = nome + (" de Oliveira")
+alert(nome);
 
-var nome = "Matheus"
-var nome_sobrenome = nome.replace("de Oliveira", "Teixeira")
-alert(nome_sobrenome);
+var nome = nome.replace("de Oliveira", "Teixeira")
+alert(nome);
 
-var resultado = nome_sobrenome
+var resultado = nome
 
 // exercício 4
 
@@ -51,17 +49,17 @@ var preco = 10
 
 var desconto = 0.2
 
-preco_final = preco * desconto
+preco_final = preco - (preco * desconto)
 console.log(preco_final);
 
 // exercício 5
 
-var idade = 18
+var idade = 67
 var saida;
 
 if (idade < 18) {
     saida = "Menor de idade"
-} else if (idade >= 18) {
+} else if (idade < 60)  {
     saida = "Adulto"
 } else {
     saida = "Idoso"
@@ -88,3 +86,19 @@ if (numero > 0) {
 } else {
     console.log("O número é 0");
 }
+
+// exercício 8
+
+var altura = prompt("Insira sua altura em centimetros")
+var massa = prompt("Insira sua massa em quilogramas")
+
+var imc = massa / (altura * altura)
+var resultado;
+
+if (18.5 <= imc && imc<= 24.9) {
+    resultado = "Você está saudável."
+} else {
+    resultado = "Você não está entre o intervalo ideal de IMC."
+}
+
+alert(resultado)
