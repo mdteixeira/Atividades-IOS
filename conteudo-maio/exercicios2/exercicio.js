@@ -46,7 +46,7 @@ if (desconto > 0) { // Exibe o diálogo apenas se o usuário digitou um cupom v�
     var preco = 1000.0;
     var preco_final = preco - preco * desconto; // Calcula o preço com desconto
 
-    alert(`O cupom lhe garante ${desconto * 100}% de desconto!`); // Retorna ao usuário o desconto q
+    alert(`O cupom lhe garante ${desconto * 100}% de desconto!`); // Retorna ao usuário o desconto
     alert(
         `O preço inicial do produto era de R$${preco}\n\nCom seu cupom de ${
             desconto * 100
