@@ -1,0 +1,74 @@
+{
+    "files.autoSave": "afterDelay",
+    "git.autofetch": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "material-icon-theme.folders.theme": "specific",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.stickyScroll.enabled": true,
+    "explorer.confirmDragAndDrop": false,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "editor.guides.bracketPairs": true,
+    "workbench.tree.indent": 4,
+    "workbench.tree.renderIndentGuides": "always",
+    "eslint.codeActionsOnSave.rules": null,
+    "eslint.validate": ["javascript", "typescript"],
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true,
+    "prettier.bracketSpacing": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "miramac.node.args": [],
+    "miramac.node.showInfo": false,
+    "editor.wordWrap": "on",
+    "window.commandCenter": true,
+    "window.menuBarVisibility": "compact",
+    "fiveServer.openTerminal": false,
+    "liveServer.settings.donotVerifyTags": true, // Bold
+
+
+    // Controls the font family.
+    "editor.fontFamily": "Fira Code",
+    // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
+    "editor.lineHeight": 24,
+    // Enables font ligatures
+    "editor.fontLigatures": true,
+    // Controls if file decorations should use badges.
+    "explorer.decorations.badges": true,
+    "editor.fontWeight": "500",
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [{
+            "scope": [
+                "keyword",
+                "meta.function",
+                "variable",
+            ],
+            "settings": {
+                "fontStyle": "bold"
+            }
+          },{
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        }]
+    },
+    "workbench.colorTheme": "Shades of Purple (Super Dark)"
+}
